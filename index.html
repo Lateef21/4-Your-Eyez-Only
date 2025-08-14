@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Will you be my Valentine? 💘</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <audio id="bg-music" loop>
+    <source src="12 ARE WE STILL FRIENDS.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="card">
+    <div class="brand"><span class="dot"></span> <span>Valentine • Only by Lateef</span></div>
+    <div class="banner float" aria-live="polite">
+      <img id="banner" alt="cute banner" src="https://media.giphy.com/media/1ZDoc9v1mWOUNIxLWh/giphy.gif" />
+    </div>
+    <p class="greeting" id="greeting"></p>
+    <h1 id="question-heading">Will you be my valentine?</h1>
+    <div class="controls">
+      <label for="language-select" style="font-weight:700">Language:</label>
+      <select id="language-select" aria-label="Choose language">
+        <option value="english">English</option>
+        <option value="yoruba">Yorùbá</option>
+      </select>
+      <button class="share-btn" id="share">Share</button>
+      <label class="mode-switch">
+        <input type="checkbox" id="modeToggle" /> Dark mode
+      </label>
+    </div>
+    <div class="btns runaway">
+      <button class="btn btn-yes" id="yes-button" aria-label="Say yes">Yes</button>
+      <button class="btn btn-no" id="no-button" aria-label="Say no">No</button>
+      <div class="hearts" id="hearts"></div>
+    </div>
+    <p class="hint" id="hint">Tip: the green button might grow on you 😉</p>
+    <div class="message" id="message">
+      <h2 id="success-message">Hopefully, I'll see you soooonnn :3</h2>
+    </div>
+    <img id="parkour" class="parkour-gif" src="https://media2.giphy.com/media/f0sATHPZHuHAq2Wj34/giphy.gif" alt="Parkour!">
+    <img id="yes-gif" class="yes-gif" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjUyZnAwMHpwaTl0M3lkb2I3NHR6d2J6bjRiM29kcmtkMWl4OXY1NiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/pK0T7vyx3SqdfmxewA/giphy.gif" alt="Happy!">
+    <div class="footer">
+      Made by Lateef
+    </div>
+  </div>
+  <div class="confetti" id="confetti" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
